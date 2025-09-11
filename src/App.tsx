@@ -1,10 +1,12 @@
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Aframe from './components/Aframe'
+import Bryant from './components/Bryant'
 import HarborView from './components/HarborView'
 import MT2 from './components/MT2'
 import PlugIn from './components/PlugIn'
 import Southline from './components/Southline'
+import TheFoundry from './components/TheFoundry'
 import WoodWorking from './components/Woodworking'
 
 
@@ -29,10 +31,16 @@ function App() {
             <div className='mt-6 mb-8 lg:mg-0 lg:mt-18'>
               <MT2 />
             </div>
+            <div className='mt-6 mb-8 lg:mg-0 lg:mt-18'>
+              <TheFoundry />
+            </div>
+            <div className='mt-6 mb-8 lg:mg-0 lg:mt-18'>
+              <Bryant />
+            </div>
           </div>
           <div className='text-white text-2xl text-center md:text-4xl md:mt-16 lg:bottom-0 lg:mt-20 lg:text-7xl'>DEVELOPER</div>
         <div className='border-t border-gray-600 lg:my-4 w-full'></div>
-          <div className='mt-3 lg:mt-6 lg:mt-18'>
+          <div className='mt-3 md:mt-6 lg:mt-18'>
             <PlugIn />
           </div>
            <div className='mt-10 lg:mt-18'>
