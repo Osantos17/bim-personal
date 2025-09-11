@@ -47,21 +47,25 @@ function Bryant() {
           loop={true}
         >
           {slides.map((slide, index) => (
-            <SwiperSlide key={index} className="flex justify-evenly items-center mb-4 lg:mb-6 relative">
+            <SwiperSlide
+              key={index}
+              className="flex justify-center items-center mb-4 lg:mb-6 relative"
+            >
               <img
                 src={slide.src}
                 alt={slide.alt}
-                className="max-h-auto max-w-auto lg:max-h-170 lg:max-w-170"
+                className="max-h-[500px] w-auto object-contain"
               />
-              <div 
+              <div
                 className="absolute left-0 top-0 w-1/2 h-full cursor-pointer"
                 onClick={handlePrevClick}
               />
-              <div 
+              <div
                 className="absolute right-0 top-0 w-1/2 h-full cursor-pointer"
                 onClick={handleNextClick}
               />
             </SwiperSlide>
+
           ))}
         </Swiper>
 
