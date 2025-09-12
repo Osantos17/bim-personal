@@ -19,7 +19,7 @@ function PlugIn () {
         I developed a custom Revit plugin using IronPython and pyRevit by integrating a variety of useful scripts from pyRevit and its extensions, along with several custom tools I built to match our office’s specific workflows. The result was a streamlined toolset that significantly improved day-to-day efficiency. I'm excited to continue applying and growing these skills to drive even greater impact in the office and beyond.
         </div>
       </div>
-      <div className="AllowableOpenings">
+      <div className="AllowableOpenings mt-6">
         <div className="text-white underline text-center text-lg md:text-2xl lg:text-5xl mb-2 md:mb-5 lg:mb-10">
           Allowable Openings
         </div>
